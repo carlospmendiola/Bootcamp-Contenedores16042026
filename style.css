@@ -134,6 +134,41 @@ table {
   border-spacing: 0;
 }
 /* ESTILOS PÁGINA */
+html {
+  background-color: #f6f6f6;
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  border: 1px solid #f1f1f1;
+  background-color: #fff;
+  border-width: 0 1px;
+  padding: 1rem;
+  height: 100vh;
+}
 header {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #f3f3f3;
+  text-align: center;
+  padding: 1rem 0;
+}
+nav { 
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+}
+ul li {
+  display: inline-block;
+  margin: 0 2rem;
+}
+/* ESTILOS TEXTO */
+h1{
+  font: 600 4.2rem/1.2 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+ul li a {
+  font: 400 1.2rem/1.2 'Roboto', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#fc9003;
 }
