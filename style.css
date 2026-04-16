@@ -168,10 +168,12 @@ section {
   display: inline-block;
   width: 65%;
   margin-right: 2rem;
+  border-right: 1px solid #f1f1f1;
 }
 section > article {
-  padding: 2rem;
+  padding: 2rem 4rem;
   border-bottom: 1px solid #f1f1f1;
+  margin-right: 2rem;
 }
 section>article:last-child {
   border-bottom: none;
@@ -179,33 +181,34 @@ section>article:last-child {
 aside {
   width: 20%;
   display: inline-block;
-  padding: 2rem 2rem;
-  border-left: 1px solid #f1f1f1;
+  padding: 0rem 2rem 0rem 1rem;
 }
 footer {
   text-align: center;
   background-color: #f1f1f1;
   padding: 1rem 0;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 /* ESTILOS TEXTO */
 h1{
-  font: 500 4.2rem/1.2 'Glegoo', sans-serif;
+  font: 600 4.2rem/1.2 'Glegoo', sans-serif;
   text-transform: uppercase;
 }
 h2 {
   font: 400 1.8rem/1.2 'Glegoo', sans-serif;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
-  color: #333;
+  
 }
 h3 {
   font: 400 1.4rem/1.2 'Glegoo', sans-serif;
   margin-bottom: 0.5rem;
-  color: #333;
+}
+h2, h3 {
+  color: #ab670e;
 }
 ul li a {
-  font: 400 1.2rem/1.2 'Roboto', sans-serif;
+  font: 500 1.1rem/1.2 'Roboto', sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   color:#fc9003;
@@ -214,6 +217,10 @@ ul li a:hover {
   color: #666;
 }
 p {
-  font: 400 1.25rem/1.4 'Lato', sans-serif;
+  font: italic 400 1.25rem/1.4 'Lato', sans-serif;
   color: #131313;
 } 
+footer p {
+  font-style: normal;
+  font-size: 1.1rem;
+}
