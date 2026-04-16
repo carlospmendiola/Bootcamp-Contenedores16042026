@@ -241,6 +241,9 @@ footer p {
   text-align: justify;
   margin-top: 1rem;
 }
+p.boton {
+  text-align: center;
+}
 p.boton a {
   display: inline-block;
   background-color: #ab670e;
