@@ -161,15 +161,32 @@ ul li {
   margin: 0 2rem;
 }
 .contenido {
-  padding: 4rem 6rem;
+  padding: 6rem 2rem;
+}
+section {
+  margin-bottom: 2rem;
+  display: inline-block;
+  width: 65%;
+  margin-right: 2rem;
 }
 section > article {
-  width: 45%;
+  padding: 2rem;
+  border-bottom: 1px solid #f1f1f1;
+}
+section>article:last-child {
+  border-bottom: none;
+}
+aside {
+  width: 20%;
   display: inline-block;
-  border: 1px solid #f9f9f9;
-  padding: 2%;
+  padding: 2rem 2rem;
+  border-left: 1px solid #f1f1f1;
+}
+footer {
+  text-align: center;
   background-color: #f1f1f1;
-  border-radius: 15px;
+  padding: 1rem 0;
+  margin-top: 3rem;
 }
 /* ESTILOS TEXTO */
 h1{
@@ -182,11 +199,19 @@ h2 {
   margin-bottom: 0.5rem;
   color: #333;
 }
+h3 {
+  font: 400 1.4rem/1.2 'Glegoo', sans-serif;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
 ul li a {
   font: 400 1.2rem/1.2 'Roboto', sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   color:#fc9003;
+}
+ul li a:hover {
+  color: #666;
 }
 p {
   font: 400 1.25rem/1.4 'Lato', sans-serif;
