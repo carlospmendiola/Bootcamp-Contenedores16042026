@@ -143,28 +143,44 @@ html {
   border: 1px solid #f1f1f1;
   background-color: #fff;
   border-width: 0 1px;
-  padding: 1rem;
   height: 100vh;
 }
 header {
   border-bottom: 1px solid #f3f3f3;
   text-align: center;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
 }
 nav { 
-  width: 1000px;
   margin: 0 auto;
   text-align: center;
   padding: 1rem;
+  background-color: #fcfcfc;
 }
 ul li {
   display: inline-block;
   margin: 0 2rem;
 }
+.contenido {
+  padding: 4rem 6rem;
+}
+section > article {
+  width: 45%;
+  display: inline-block;
+  border: 1px solid #f9f9f9;
+  padding: 2%;
+  background-color: #f1f1f1;
+  border-radius: 15px;
+}
 /* ESTILOS TEXTO */
 h1{
-  font: 600 4.2rem/1.2 'Roboto', sans-serif;
+  font: 500 4.2rem/1.2 'Glegoo', sans-serif;
   text-transform: uppercase;
+}
+h2 {
+  font: 400 1.8rem/1.2 'Glegoo', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  color: #333;
 }
 ul li a {
   font: 400 1.2rem/1.2 'Roboto', sans-serif;
@@ -172,3 +188,7 @@ ul li a {
   text-transform: uppercase;
   color:#fc9003;
 }
+p {
+  font: 400 1.25rem/1.4 'Lato', sans-serif;
+  color: #131313;
+} 
